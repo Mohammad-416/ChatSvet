@@ -4,6 +4,15 @@
 # Install requirements
 pip install -r requirements.txt
 
+# Navigate to MessageApp directory
+cd MessageApp
+
+# Install Node.js requirements
+npm install
+
+# Return to original directory
+cd ..
+
 # Run migrations
 python manage.py migrate
 
