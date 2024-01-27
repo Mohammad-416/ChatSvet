@@ -17,7 +17,7 @@ function Messages() {
     whoami().then((username) => {
       console.log("You are logged in as: " + username);
       
-      let url = 'ws://'+ process.env.REACT_APP_WS_SERVER + username + '/' + slugify(slug || '', { lower: true }) + '/';
+      let url =  process.env.REACT_APP_WS_SERVER + username + '/' + slugify(slug || '', { lower: true }) + '/';
       const newSocket = new WebSocket(url);
       setUsername(username);
       newSocket.addEventListener('open', (event) => {
