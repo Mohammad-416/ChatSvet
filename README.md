@@ -1,4 +1,4 @@
-Chatsvet by Futuristic Coders (Mohammad)
+**Chatsvet by Futuristic Coders (Mohammad)**
 
 Welcome to Chatsvet, a cutting-edge web application developed by Futuristic Coders led by Mohammad. Chatsvet is a powerful chat platform that leverages state-of-the-art technologies to provide a seamless and interactive communication experience.
 Technologies Used
@@ -19,7 +19,7 @@ Chatsvet is built using a combination of modern technologies and libraries:
 
 This Project is Live on https://chatsvet.onrender.com
 
-    Contribution
+**Contribution**
 
 We welcome contributions from the community. If you would like to contribute to Chatsvet, please follow our contribution guidelines.
 Support and Feedback
