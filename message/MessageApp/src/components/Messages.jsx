@@ -17,7 +17,7 @@ function Messages() {
     whoami().then((username) => {
       console.log("You are logged in as: " + username);
       
-      let url = 'ws://chatsvet.onrender.com/'+ username + '/' + slugify(slug) + '/';
+      let url = 'wss://chatsvet.onrender.com/'+ username + '/' + slugify(slug) + '/';
       const newSocket = new WebSocket(url);
       setUsername(username);
       newSocket.addEventListener('open', (event) => {
