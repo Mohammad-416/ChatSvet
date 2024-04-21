@@ -15,7 +15,7 @@ Chatsvet is built using a combination of modern technologies and libraries:
 
     Websocket Channels: Chatsvet integrates Websocket Channels to enable real-time, bidirectional communication between the server and clients, making live chat interactions fast and efficient.
 
-    Other Libraries: Chatsvet incorporates various other libraries to enhance functionality, security, and user experience. These include but are not limited to [mention other relevant libraries].
+    Other Libraries: Chatsvet incorporates various other libraries to enhance functionality, security, and user experience. These include but are not limited to pillow, cookies, posgres.
 
 This Project is Live on https://chatsvet.onrender.com
 
