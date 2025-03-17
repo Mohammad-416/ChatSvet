@@ -13,6 +13,8 @@ npm install
 # Return to original directory
 cd ..
 
+python manage.py makemigrations
+
 # Run migrations
 python manage.py migrate
 
