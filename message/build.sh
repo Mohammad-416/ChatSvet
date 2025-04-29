@@ -15,6 +15,8 @@ cd ..
 
 python manage.py makemigrations
 
+python manage.py makemigrations authApp
+
 # Run migrations
 python manage.py migrate
 
